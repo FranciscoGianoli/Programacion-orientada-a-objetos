@@ -1,0 +1,14 @@
+class Animal {
+    caminar (camina){
+        console.log(camina)
+    }
+}
+
+class animalVolador extends Animal {
+    despegar(){
+        this.caminar("se desplaza por tierra hacia el punto donde despegara")
+    }
+}
+
+let ave1 = new animalVolador();
+ave1. despegar();
